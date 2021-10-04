@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWResistenceSocialNetwork.API", "SWResistenceSocialNetwork.API\SWResistenceSocialNetwork.API.csproj", "{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5479C870-A191-41F0-AD40-4E991A11E791}
+	EndGlobalSection
+EndGlobal
