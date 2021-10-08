@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWResistenceSocialNetwork.API", "SWResistenceSocialNetwork.API\SWResistenceSocialNetwork.API.csproj", "{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWResistenceSocialNetwork.API", "SWResistenceSocialNetwork.API\SWResistenceSocialNetwork.API.csproj", "{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWResistenceSocialNetwork.Domain", "SWResistenceSocialNetwork.Domain\SWResistenceSocialNetwork.Domain.csproj", "{CEE7F118-7AC5-4A14-92C0-8FFAD4204898}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWResistenceSocialNetwork.Infrastructure.Data", "SWResistenceSocialNetwork.Infrastructure.Data\SWResistenceSocialNetwork.Infrastructure.Data.csproj", "{182B1E68-3D72-45F8-AADD-63E4F1AB024F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWResistenceSocialNetwork.Infrastructure.Repository", "SWResistenceSocialNetwork.Infrastructure.Repository\SWResistenceSocialNetwork.Infrastructure.Repository.csproj", "{47D8A320-8AAE-4B71-8062-E85488BFBC9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWResistenceSocialNetwork.IoC", "SWResistenceSocialNetwork.IoC\SWResistenceSocialNetwork.IoC.csproj", "{910BAB37-F62D-48E3-BB3B-007E20A7ED3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWResistenceSocialNetwork.Application", "SWResistenceSocialNetwork.Application\SWResistenceSocialNetwork.Application.csproj", "{6359A00D-DD53-4E87-9687-98C6E4378370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWResistenceSocialNetwork.Tests", "SWResistenceSocialNetwork.Tests\SWResistenceSocialNetwork.Tests.csproj", "{5E8A1413-1464-4D32-8182-448D21E86DDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7D4E35-D419-465E-9FB5-7B884D8BB70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE7F118-7AC5-4A14-92C0-8FFAD4204898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE7F118-7AC5-4A14-92C0-8FFAD4204898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE7F118-7AC5-4A14-92C0-8FFAD4204898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE7F118-7AC5-4A14-92C0-8FFAD4204898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{182B1E68-3D72-45F8-AADD-63E4F1AB024F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182B1E68-3D72-45F8-AADD-63E4F1AB024F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182B1E68-3D72-45F8-AADD-63E4F1AB024F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182B1E68-3D72-45F8-AADD-63E4F1AB024F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D8A320-8AAE-4B71-8062-E85488BFBC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D8A320-8AAE-4B71-8062-E85488BFBC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D8A320-8AAE-4B71-8062-E85488BFBC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D8A320-8AAE-4B71-8062-E85488BFBC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910BAB37-F62D-48E3-BB3B-007E20A7ED3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910BAB37-F62D-48E3-BB3B-007E20A7ED3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910BAB37-F62D-48E3-BB3B-007E20A7ED3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910BAB37-F62D-48E3-BB3B-007E20A7ED3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6359A00D-DD53-4E87-9687-98C6E4378370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6359A00D-DD53-4E87-9687-98C6E4378370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6359A00D-DD53-4E87-9687-98C6E4378370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6359A00D-DD53-4E87-9687-98C6E4378370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8A1413-1464-4D32-8182-448D21E86DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8A1413-1464-4D32-8182-448D21E86DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8A1413-1464-4D32-8182-448D21E86DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8A1413-1464-4D32-8182-448D21E86DDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

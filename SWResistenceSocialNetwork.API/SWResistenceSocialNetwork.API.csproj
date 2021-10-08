@@ -4,15 +4,25 @@
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>1c4680ff-34b3-43eb-909d-8444f85a1e33</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\SWResistenceSocialNetwork.Application\SWResistenceSocialNetwork.Application.csproj" />
+    <ProjectReference Include="..\SWResistenceSocialNetwork.Infrastructure.Data\SWResistenceSocialNetwork.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\SWResistenceSocialNetwork.IoC\SWResistenceSocialNetwork.IoC.csproj" />
   </ItemGroup>
 
 </Project>
