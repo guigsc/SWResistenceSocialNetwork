@@ -34,6 +34,7 @@ namespace SWResistenceSocialNetwork.Application.Services
         public async Task UpdateGeoLocation(int id, GeoLocationDto geoLocation)
         {
             var rebel = await _repository.GetByIdAsync(id);
+            if (rebel == null) return;
 
             rebel.UpdateGeoLocation(geoLocation.Latitude, geoLocation.Longitude, geoLocation.Name);
 
